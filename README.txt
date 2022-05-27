@@ -2,4 +2,4 @@
 
 Frontend: HTML, CSS(Bootstrap), JS, Jquery
 Backend: Java
-CB: MySQL
+DB: MySQL
