@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta  name="Author" content="Panos Paraschidis">
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <link rel="stylesheet" type="text/css" href="tivstyle.css">
+        <script type="text/javascript" src="myServlet.js" async></script>
+      
+        <script src="exif.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApw5HwsUDBp0-JP9B02Cmf9dkhArPH510&callback=initMap" async defer ></script>
+
+        <title>Tiled Image Viewer</title>
+    </head>
+    <body>        
+        <header>
+            <h1>Tiled Image Viewer</h1>
+            <div id='welcome'></div>
+        </header>
+        <div id='start'>
+            <input class='button' id='but' type='button' value="Login" onclick='login();'>
+            <input class='button' id='but1' type='button' value="Sign up" onclick='sendAjaxGet();'>
+        </div>
+        <div id='signupForm'></div>  
+        
+        <div id='signedin'></div>
+        
+        <div id='logedin'></div>
+        <div id='task3'>
+            <h3>Number of Images :</h3>
+            <input id='images_num' type='text' name='images_num'>
+            <button type="button" id='show_num_images' onclick='GetImageCollection();'> Results </button>
+            <h2>Latest Images:</h2>
+        </div>
+        <div id='whole'>
+                        
+        </div>
+        <div id='enlarged'>
+            <div id='rating' style="display: none; margin-left: 20px; margin-top: 20px;">
+                <input type="text" id="rate">
+                <input id="vathmos" type="button" value="Rate" onclick="Rate();">
+                
+                <span id='rating_info'></span>
+                
+            </div>
+        </div> 
+
+        <div id='map'></div>
+    </body>
+</html>

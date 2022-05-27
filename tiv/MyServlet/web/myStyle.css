@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Νοε 2016, 7:23:59 μμ
+    Author     : panos
+*/
+body{
+    background: rgb(60,60,70);
+	margin:0;
+	padding: 0;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        padding: 0px 240px 50px 240px;
+}
+#start{
+    padding-left: 400px;
+}
+#logedin{
+	 border-radius: 25px;
+   background-color: beige;
+   font-size: 20px;
+    padding-left:20px;
+}
+#signupForm{
+    border-radius: 25px;
+   background-color: beige;
+   font-size: 20px;
+    padding-left:20px;
+}
+#signedin{
+    border-radius: 25px;
+     background-color: beige;
+   padding-left: 10px;
+    font-size: 18px;
+}
+h1{
+    color:aliceblue;
+    padding-left:300px;
+
+    }
+h2{
+        color:aliceblue;
+    }
+header{
+    font-size: 30px;
+    
+}
+.button{
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+
+input {
+  display: inline-block;
+  
+}
+#but5{
+	font-size: 20px;
+	background-color: aliceblue;
+}
+#but5{
+	font-size: 20px;
+	background-color: aliceblue;
+	padding-left:30px;
+}
+
+#but8{
+	font-size: 20px;
+	background-color: aliceblue;
+	
+}
+
+
+
+@media (min-width: 1024px) {
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+    nav{
+    display: inline-block;
+    clear: left;
+}
+
+
+}
+
+@media (max-width: 320px) {
+ header{
+    font-size: 20px;
+    
+}
+    #signedin{
+    border-radius: 25px;
+     background-color: beige;
+ 
+    font-size: 10px;
+}
+body{
+    background: rgb(60,60,70);
+	margin:0;
+	padding: 0;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+       padding-left: 0px;
+       padding-right: 130px;
+}
+#signupForm{
+    border-radius: 25px;
+   background-color: beige;
+    font-size: 10px;
+}
+.button{
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+}
+@media (min-width: 321px) and (max-width: 480px) {
+ header{
+    font-size: 20px;
+    
+}
+    #signedin{
+    border-radius: 25px;
+     background-color: beige;
+ 
+    font-size: 10px;
+}
+body{
+    background: rgb(60,60,70);
+	margin:0;
+	padding: 0;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+       padding-left: 0px;
+       padding-right: 230px;
+}
+#signupForm{
+    border-radius: 25px;
+   background-color: beige;
+    font-size: 10px;
+}
+.button{
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+}
